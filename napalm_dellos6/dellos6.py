@@ -14,7 +14,7 @@
 # the License.
 
 """
-Napalm driver for Skeleton.
+Napalm driver for DellOS6.
 
 Read https://napalm.readthedocs.io for more information.
 """
@@ -29,8 +29,8 @@ from napalm.base.exceptions import (
 )
 
 
-class SkeletonDriver(NetworkDriver):
-    """Napalm driver for Skeleton."""
+class DellOS6Driver(NetworkDriver):
+    """Napalm driver for DellOS6."""
 
     def __init__(self, hostname, username, password, timeout=60, optional_args=None):
         """Constructor."""

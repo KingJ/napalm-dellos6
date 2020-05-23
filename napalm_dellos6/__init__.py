@@ -12,7 +12,7 @@
 # License for the specific language governing permissions and limitations under
 # the License.
 
-"""napalm-skeleton package."""
-from napalm_skeleton.skeleton import SkeletonDriver  # noqa
+"""napalm-dellos6 package."""
+from napalm_dellos6.dellos6 import DellOS6Driver  # noqa
 
-__all__ = ('SkeletonDriver',)
+__all__ = ('DellOS6Driver',)
